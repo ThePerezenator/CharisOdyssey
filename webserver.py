@@ -3,17 +3,8 @@ from werkzeug.exceptions import HTTPException
 from urllib.parse import urlparse
 from werkzeug.utils import secure_filename
 import requests
-import os
-import itertools
-
-UPLOAD_FOLDER = r'C:\Users\Perez\Desktop\Firefly\static\uploads'
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'mp4'])
-
-def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 app = Flask(__name__, static_folder='static')
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.secret_key = "perezenator"
 
 bannedip = []
