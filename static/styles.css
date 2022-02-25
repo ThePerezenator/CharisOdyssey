@@ -1,0 +1,135 @@
+@import "https://fonts.googleapis.com/css?family=Roboto";
+body {
+    margin: 0;
+    font-family: "Roboto";
+    background-color:#222222;
+}
+h1 {
+    color: white;
+    font-family: "Roboto";
+}
+h2 {
+    font-weight: 700;
+    text-align: center;
+    font-family: "Roboto";
+}
+.header {
+    text-align: center;
+    vertical-align: bottom;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    color: white;
+    font-size: 4vh;
+}
+.navbar {
+    position: sticky;
+    height: 7vh;
+    padding: .5vw;
+    background-color: #000000;
+}
+.navright {
+  float: right;
+  height: 100%;
+}
+.navleft {
+  text-align: left;
+  height: 100%;
+}
+.tl {
+  height: 7vh;
+  overflow:hidden;
+}
+.navbtn {
+  height: 100%;
+  font-size: 2vh;
+  background-color: #000000;
+  color: white;
+  padding: 0vw 3vw 0vw 3vw;
+  border: solid #d4d4d4 2px;
+}
+.btn {
+  color: #000000;
+  padding: 10px 20px 10px 20px;
+  border: solid #d4d4d4 2px;
+}
+.textfield {
+  font-size: 4vh;
+  text-align: left;
+  padding: 2vh;
+  width: 60%;
+  height: 2vh;
+  border: .25vh solid black;
+  background-color: white;
+}
+.textline {
+  padding: 1vh;
+}
+.body {
+    padding: 2vh;
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    font-size: 5vh;
+}
+.image {
+  background-color: white;
+  max-width: 95%;
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  height: auto;
+  text-align: center;
+}
+.bg {
+  background-color: white;
+  text-align: center;
+}
+.container div {
+    box-sizing: border-box;
+    min-height: 500px;
+}
+.left-col, .right-col {
+    background-color: #f4f4f4;
+    width: 50%;
+    float: left;
+}
+
+.table {
+  align-items: center;
+  font-size: 2vh;
+  border-spacing: 0;
+  margin: 1rem;
+  background-color: #E6E6E6;
+  width: 90%;
+  text-align: center;
+}
+.table__row:nth-child(even) {
+   background-color: #D2D2D2;
+}
+.table__cel {
+  padding: 1px;
+}
+
+.ytcontainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+    color: white;
+    clear: both;
+    text-align: center;
+    font-size: 2vh;
+    padding-top: 1vh;
+    box-sizing: border-box;
+}

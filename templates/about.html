@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charis Odyssey</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+<body>
+<div class="navbar">
+  <div class="navright">
+  <button class="navbtn" onclick="window.location.href='{{ url_for('sc')}}'">Source Code</button>
+  <button class="navbtn" onclick="window.location.href='{{ url_for('about')}}'">About</button>
+  <button class="navbtn" onclick="window.location.href='{{ url_for('contact')}}'">Contact Us</button>
+  </div>
+  <div class="navleft">
+    <img src="static\logo.png" class="tl" onclick="window.location.href='{{ url_for('home')}}'">
+  </div>
+</div>
+<div class="body">
+  <p>About Us</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In dictum non consectetur a erat nam. Amet mauris commodo quis imperdiet massa tincidunt nunc. Nisl vel pretium lectus quam id. Vitae justo eget magna fermentum iaculis eu non. Nibh praesent tristique magna sit. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Pulvinar mattis nunc sed blandit libero volutpat sed. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Purus non enim praesent elementum facilisis leo vel fringilla.<p>
+</div>
+<div class="footer">
+    &copy; Charis Odyssey
+</div>
+</body>
+</html>
