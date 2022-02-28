@@ -7,22 +7,20 @@
 <body>
 <div class="navbar">
   <div class="navright">
-  <button class="navbtn" onclick="window.location.href='{{ url_for('sc')}}'">Source Code</button>
-  <button class="navbtn" onclick="window.location.href='{{ url_for('about')}}'">About</button>
-  <button class="navbtn" onclick="window.location.href='{{ url_for('contact')}}'">Contact Us</button>
+    <button class="navbtn" onclick="window.location.href='{{ url_for('ai')}}'">AI</button>
+    <button class="navbtn" onclick="window.location.href='{{ url_for('sc')}}'">Source Code</button>
   </div>
   <div class="navleft">
     <img src="static\logo.png" class="tl" onclick="window.location.href='{{ url_for('home')}}'">
   </div>
 </div>
 <div class="body">
-  <p>this is ai</p>
   <p>Charis: {{ response }}<p>
   <form action="#" method="post">
   <div>
     <input type="text" name="msg" placeholder="Send a message..." class="textfield"/>
   </div>
-  <p><input class="btn" type="submit" value="Send" /></p>
+  <input class="btn" type="submit" value="Send"/>
 </form>
 </div>
 <div class="footer">

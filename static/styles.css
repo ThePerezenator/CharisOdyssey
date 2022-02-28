@@ -47,7 +47,9 @@ h2 {
   padding: 0vw 3vw 0vw 3vw;
   border: solid #d4d4d4 2px;
 }
-.btn {
+.btn { 
+  -webkit-appearance: none;
+  font-size: 2vh;
   color: #000000;
   padding: 10px 20px 10px 20px;
   border: solid #d4d4d4 2px;
